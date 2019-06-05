@@ -12,19 +12,25 @@
 	width : 100%;
 	}
 	
+	.bodyDiv {
+	margin: 0 auto;
+	}
+	
+	.headingDiv {
+	margin: 0 auto;
+	}
+	
+	.formDiv {
+	margin: 0 auto;
+	}
 </style>
 <html>
-	
-<title>how do you Do It?</title>
-	<center><h1>how do you Do It?</h2>
-	</SCRIPT>
-        <CENTER>
-        <FORM>
-        <input type="button" value="Click here to play" onClick="passWord()">
-        </FORM>
+	<title>how do you Do It?</title>
+	<h1 class="headingDiv">how do you Do It?</h1>
+	<FORM class="formDiv"><input type="button" value="Click here to play" onClick="passWord()"></FORM>
 	<div class=nyanCat><img src="images/nyan_cat.gif"></div>
-        </CENTER>
-	
+        
+</html>
 <SCRIPT>
 function passWord() {
 var testV = 1;
@@ -41,6 +47,7 @@ var pass1 =
 prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
 }
 if (pass1.toLowerCase()!="password" & testV ==3) 
+</SCRIPT>
 history.go(-1);
 return " ";
 } 
