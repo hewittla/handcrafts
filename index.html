@@ -10,7 +10,7 @@
 	background-image: url("images/doge.jpg");
 	overflow-x: hidden;}
 	
-	.nyanCat {
+	#nyanCat {
 	position: fixed;
 	top: 0;
 	margin: 0 auto;
@@ -102,7 +102,7 @@ h1{
 	<title>how do you Do It?</title>
 	<h1 class="headingDiv">how do you Do It?</h1>
 	<FORM class="formDiv"><input type="button" value="Click here to play" onClick="passWord()"></FORM>
-	<img class=nyanCat src="images/nyan_cat.gif">
+	<img id="nyanCat" src="images/nyan_cat.gif">
 
 </html>
 
@@ -127,7 +127,7 @@ return " ";
 } 
 
 
-document.getElementByClassName("nyanCat").onclick = function() {
+document.getElementById("nyanCat").onclick = function() {
   window.open("https://discord.gg/V7SmXQj");
 };
 
