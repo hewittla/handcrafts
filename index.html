@@ -3,13 +3,13 @@
 	* {
 	color : red;
 	font-family: "comic sans ms";
-
 	}
 	
 	html {
 	height: 1080px;
 	background-image: url("images/doge.jpg");
-	overflow-x: hidden;}
+	overflow-x: hidden;
+	}
 	
 	#nyanCat {
 	position: fixed;
@@ -107,39 +107,9 @@ h1{
 </style>
 <html>
 	<div id="body">
-	<title>how do you Do It?</title>
-	<h1 class="headingDiv">how do you Do It?</h1>
-	<FORM class="formDiv"><input type="button" value="Click here to play" onClick="passWord()"></FORM>
+	<title>iNTERWEBS</title>
+	<h1 class="headingDiv">wELCOME TO THE INTERWEB</h1>
 	<img id="nyanCat" src="images/nyan_cat.gif">
 	<div>
 
 </html>
-
-<SCRIPT>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Password',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "oxford1") {
-window.open('3475323473.html');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-
-
-document.getElementById("body").onclick = function() {
-  window.open("https://discord.gg/4AZCkks");
-};
-
-
-</script>
-
